@@ -203,3 +203,30 @@ This project was conducted in a personal lab environment for educational and cyb
 
 The findings represent observations from the available Windows Security Event Logs and should not be interpreted as confirmation of a security breach.
 
+## Investigation Evidence
+
+The following screenshots document the key stages of the investigation.
+
+### 1. Windows Event ID Summary
+
+![Windows Event ID Summary](screenshots/event-id-summary.png)
+
+Displays the observed counts for Windows authentication-related events.
+
+### 2. Failed Authentication Investigation — Event ID 4625
+
+![Failed Login Investigation](screenshots/failed-login-4625.png)
+
+Shows the investigated failed authentication event, including the account, logon type, status code, and process information.
+
+### 3. Privileged Logon Investigation — Event ID 4672
+
+![Privileged Logon Investigation](screenshots/privileged-logon-4672.png)
+
+Shows an example of a Windows privileged logon event and its assigned privileges.
+
+## Detailed Investigation Report
+
+For the complete technical investigation, observations, and SOC assessment, see:
+
+[Windows Authentication Incident Report](investigation/incident-report.md)
